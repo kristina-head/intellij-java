@@ -19,10 +19,12 @@ public class Main {
       if (numbers[i] == n) {
         if (numbers[i - 1] == m) {
           check = true;
+          break;
         }
       } else if (numbers[i] == m) {
         if (numbers[i - 1] == n) {
           check = true;
+          break;
         }
       }
     }
