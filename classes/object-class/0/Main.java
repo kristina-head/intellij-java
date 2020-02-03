@@ -12,6 +12,6 @@ class Account {
 
   @Override
   public String toString() {
-    return "Account{id=" + this.id + ", code='" + this.code + "', balance=" + this.balance + "}";
+    return String.format("Account{id=%d, code='%s', balance=%d}", this.id, this.code, this.balance);
   }
 }
